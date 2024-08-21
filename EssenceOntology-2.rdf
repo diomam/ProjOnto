@@ -1,0 +1,1451 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2/"
+     xml:base="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:EssenceOntology-2="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#consumes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#consumes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work_Product"/>
+        <rdfs:comment>Indicates that an activity consumes or uses a work product.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#contributesTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#contributesTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Role"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team_member"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <rdfs:comment>Defines that a team member or role contributes to a specific work.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#corresponds_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#corresponds_to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_1"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_3"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#level_4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Adapt"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Applied"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Assists"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Innovates"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Masters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#drives -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#drives">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <rdfs:comment>Indicates that stakeholders drive the actions of a team or an opportunity.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasLevel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasLevel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work_Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#State"/>
+        <rdfs:comment>Defines the state of an instance within its lifecycle.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasSubAlpha -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasSubAlpha">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Sub-Alphas"/>
+        <rdfs:comment>Specifies a hierarchical relationship where an alpha has sub-alphas.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#isAssociatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#isAssociatedWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Development"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Leadership"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholder_Representation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Testing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#isManifestedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#isManifestedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work_Product"/>
+        <rdfs:comment>Indicates that a work product is a manifestation of an alpha.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#isPartOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Task"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work_Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Solutions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team_member"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <rdfs:comment>Defines a containment relationship where an instance is a part of another instance.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#isPerformedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#isPerformedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Coordinate_Activity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Deploy_the_System"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Ensure_Stakeholder_Satisfaction"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Explore_Possibilities"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Implement_the_System"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Operate_the_System"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Prepare_to_do_the_Work"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Shape_the_System"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stop_the_Work"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Support_the_Team"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Test_the_System"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Track_Progress"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Understand_Stakeholder_Needs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Understand_the_Requirements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Use_the_System"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Analysis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Development"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Leadership"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Role"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholder_Representation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team_member"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Testing"/>
+        <rdfs:comment>Indicates which team member or role performs a given activity.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#leads -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#leads">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Role"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team_member"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <rdfs:comment>Indicates leadership or responsibility for a team or activity.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#monitors -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#monitors">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Role"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <rdfs:comment>Indicates oversight or monitoring responsibility for activities or work.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#produces -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#produces">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work_Product"/>
+        <rdfs:comment>Indicates that a team or activity produces a work product.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#requires -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#requires">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+        <rdfs:comment>Indicates the competency required to perform a given activity.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#supports">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Practice_Adoption"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Practices"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasAssignedTo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasAssignedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasBestPractices -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasBestPractices">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasBusinessValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasBusinessValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasCompetencyName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasCompetencyName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasDeploymentDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasDeploymentDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasInfluenceLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasInfluenceLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasInterest -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasInterest">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasMemberCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasMemberCount">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasMethodology -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasMethodology">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasPriority -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasPriority">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasRequirementID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasRequirementID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasRiskLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasRiskLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasRole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasRole">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasSystemName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasSystemName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasTaskID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasTaskID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasTaskName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasTaskName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasTeamName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasTeamName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasToolsUsed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasToolsUsed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasVersion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasVersion">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Adapt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Adapt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#level_4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Applied -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Applied">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Assists -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Assists">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Coordinate_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Coordinate_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Deploy_the_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Deploy_the_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Development">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Ensure_Stakeholder_Satisfaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Ensure_Stakeholder_Satisfaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Explore_Possibilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Explore_Possibilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Implement_the_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Implement_the_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Innovates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Innovates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Leadership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Leadership">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Masters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Masters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Operate_the_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Operate_the_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Practice_Adoption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Practice_Adoption"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Practices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Practices"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Prepare_to_do_the_Work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Prepare_to_do_the_Work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Shape_the_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Shape_the_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Solutions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Solutions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholder_Representation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholder_Representation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#State"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stop_the_Work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stop_the_Work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Sub-Alphas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Sub-Alphas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Support_the_Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Support_the_Team">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Task">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team_member -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team_member"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Test_the_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Test_the_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Track_Progress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Track_Progress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Understand_Stakeholder_Needs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Understand_Stakeholder_Needs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Understand_the_Requirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Understand_the_Requirements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Use_the_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Use_the_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work_Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work_Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#level_4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#level_4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Acceptable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Acceptable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Acceptable"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Addressed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Addressed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Addressed"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Adjourned -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Adjourned">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Adjourned"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Adressed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Adressed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Adressed"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Architecture_selected -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Architecture_selected">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Architecture_selected"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Assists -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Assists">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Benefice_accrued -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Benefice_accrued">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Benefice_accrued"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Bounded -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Bounded">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Bounded"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Closed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Closed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Closed"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Coherent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Coherent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Coherent"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Collaborating -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Collaborating">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Collaborating"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Conceived -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Conceived">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Conceived"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Concluded -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Concluded">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Concluded"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Demonstrable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Demonstrable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Demonstrable"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Usable"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Formed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Formed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Formed"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Foundations_established -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Foundations_established">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Foundations_established"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Fulfilled -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Fulfilled">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Fulfilled"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Identified -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Identified">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Identified"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#In_Agreement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#In_Agreement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#In_Agreement"/>
+        <EssenceOntology-2:hasInterest></EssenceOntology-2:hasInterest>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#In_place -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#In_place">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#In_use"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#In_use -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#In_use">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#In_use"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Initiated -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Initiated">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Initiated"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Involved -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Involved">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Involved"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+        <EssenceOntology-2:hasLevel rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_1"/>
+        <EssenceOntology-2:hasLevel></EssenceOntology-2:hasLevel>
+        <EssenceOntology-2:hasName></EssenceOntology-2:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+        <EssenceOntology-2:hasLevel rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_2"/>
+        <EssenceOntology-2:hasLevel></EssenceOntology-2:hasLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+        <EssenceOntology-2:hasLevel rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_3"/>
+        <EssenceOntology-2:hasLevel></EssenceOntology-2:hasLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+        <EssenceOntology-2:hasLevel rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_4"/>
+        <EssenceOntology-2:hasLevel></EssenceOntology-2:hasLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competency_Level"/>
+        <EssenceOntology-2:hasLevel rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Level_5"/>
+        <EssenceOntology-2:hasLevel></EssenceOntology-2:hasLevel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Operational -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Operational">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Operational"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Performing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Performing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Performing"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Prepared -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Prepared">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Prepared"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Principles_established -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Principles_established">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Principles_established"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Ready -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Ready">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Ready"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Recognized -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Recognized">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Recognized"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Represented -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Represented">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Retired -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Retired">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Retired"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Satisfied_for_deployment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Satisfied_for_deployment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <EssenceOntology-2:hasInterest></EssenceOntology-2:hasInterest>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Satisfied_in_use -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Satisfied_in_use">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+        <EssenceOntology-2:hasInterest></EssenceOntology-2:hasInterest>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Seeded -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Seeded">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Seeded"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Solution_needed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Solution_needed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Solution_needed"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Started -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Started">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Started"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Under_control -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Under_control">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Under_control"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Usable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Usable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Usable"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Value_Established -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Value_Established">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Value_Established"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Viable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Viable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Viable"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Working_well -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Working_well">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+        <EssenceOntology-2:hasState rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Working_well"/>
+        <EssenceOntology-2:hasStatus></EssenceOntology-2:hasStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#hasLevel">
+        <rdfs:comment>Specifies the level of competency required or demonstrated.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Activity_Spaces"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Alphas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Competencies"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Analysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Development"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Leadership"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholder_Representation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Testing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Coordinate_Activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Deploy_the_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Ensure_Stakeholder_Satisfaction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Explore_Possibilities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Implement_the_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Operate_the_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Prepare_to_do_the_Work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Shape_the_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stop_the_Work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Support_the_Team"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Test_the_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Track_Progress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Understand_Stakeholder_Needs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Understand_the_Requirements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Use_the_System"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Opportunity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Requirements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Software_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Stakeholders"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Team"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Way-of-Working"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/EssenceOntology-2#Work"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

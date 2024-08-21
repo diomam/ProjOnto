@@ -1,0 +1,757 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2/"
+     xml:base="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Ontology-2="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#belongsTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#conducts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#conducts">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Role"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#hasArtefact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#hasArtefact">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#hasCeremony -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#hasCeremony">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileProject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#hasProcess -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#hasProcess">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Process"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#hasRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#hasRole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#hasTheme -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#hasTheme">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileProject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#reportsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#reportsTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TeamMember"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ProjectManager"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#artefactDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#artefactDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#artefactName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#artefactName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ceremonyName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ceremonyName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#processName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#processName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Process"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#roleName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#roleName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Role"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#themeName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#themeName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileCoach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileCoach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileLogs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileLogs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileSpecificArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Project"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TraditionalProject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileSpecificArtefact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileSpecificArtefact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Architecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ArchitectureOverview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ArchitectureOverview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ITGovernanceArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#BusinessCase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#BusinessCase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ITGovernanceArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Closing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Closing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ComplianceAndSecurity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ComplianceAndSecurity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#CoordinationAndReportingArtefact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#CoordinationAndReportingArtefact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DailyStandUp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DailyStandUp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DeploymentAndTransition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DeploymentAndTransition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DeploymentPlan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DeploymentPlan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileSpecificArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Development">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentHandbook -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentHandbook">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileSpecificArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentStatusReport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentStatusReport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileSpecificArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentWorkPlan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentWorkPlan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileSpecificArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#EstimationAndPrioritisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#EstimationAndPrioritisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#EvolutionAndChange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#EvolutionAndChange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Executing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Executing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ITGovernanceArtefact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ITGovernanceArtefact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Initiating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Initiating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#IterationPlanning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#IterationPlanning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#IterationRetrospective -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#IterationRetrospective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#IterationReview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#IterationReview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#LeanUX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#LeanUX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#MonitoringAndControlling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#MonitoringAndControlling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#OperationalModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#OperationalModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ITGovernanceArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Planning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Planning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ProjectCharter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ProjectCharter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ITGovernanceArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ProjectManager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ProjectManager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ReleasePlanning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ReleasePlanning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Requirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Requirements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Risks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Risks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#SoftwareConfigurationManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#SoftwareConfigurationManagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Stakeholder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Stakeholder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TeamMember -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TeamMember">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TestPlans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TestPlans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileSpecificArtefact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TraditionalProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TraditionalProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileLogs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileLogs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <Ontology-2:hasArtefact rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileLogs"/>
+        <Ontology-2:artefactName>artefactDescription
+artefactName</Ontology-2:artefactName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ArchitectureOverview -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ArchitectureOverview">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <Ontology-2:hasArtefact rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ArchitectureOverview"/>
+        <Ontology-2:artefactDescription>artefactName
+artefactDescription</Ontology-2:artefactDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#BusinessCase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#BusinessCase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <Ontology-2:hasArtefact rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#BusinessCase"/>
+        <Ontology-2:artefactDescription>artefactName
+artefactDescription</Ontology-2:artefactDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DeploymentPlan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DeploymentPlan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <Ontology-2:hasArtefact rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DeploymentPlan"/>
+        <Ontology-2:artefactDescription>artefactName
+artefactDescription</Ontology-2:artefactDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentHandbook -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentHandbook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <Ontology-2:hasArtefact rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentHandbook"/>
+        <Ontology-2:artefactDescription>artefactName
+artefactDescription</Ontology-2:artefactDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentStatusReport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentStatusReport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <Ontology-2:hasArtefact rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentStatusReport"/>
+        <Ontology-2:artefactDescription>artefactName
+artefactDescription</Ontology-2:artefactDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentWorkPlan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentWorkPlan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <Ontology-2:hasArtefact rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentWorkPlan"/>
+        <Ontology-2:artefactName>artefactDescription
+artefactName</Ontology-2:artefactName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#OperationalModel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#OperationalModel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <Ontology-2:hasArtefact rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#OperationalModel"/>
+        <Ontology-2:artefactName>artefactDescription
+artefactName</Ontology-2:artefactName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ProjectCharter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ProjectCharter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <Ontology-2:hasArtefact rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ProjectCharter"/>
+        <Ontology-2:artefactName>artefactDescription
+artefactName</Ontology-2:artefactName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TestPlans -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TestPlans">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+        <Ontology-2:hasArtefact rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TestPlans"/>
+        <Ontology-2:artefactName>artefactDescription
+artefactName</Ontology-2:artefactName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileCoach"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ProjectManager"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Stakeholder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TeamMember"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileLogs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DeploymentPlan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentHandbook"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentStatusReport"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DevelopmentWorkPlan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#TestPlans"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#AgileSpecificArtefact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#CoordinationAndReportingArtefact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ITGovernanceArtefact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Architecture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ComplianceAndSecurity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DeploymentAndTransition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Development"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#EstimationAndPrioritisation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#EvolutionAndChange"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#LeanUX"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Quality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Requirements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Risks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#SoftwareConfigurationManagement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Testing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ArchitectureOverview"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#BusinessCase"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#OperationalModel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ProjectCharter"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Artefact"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Ceremony"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Theme"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Closing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Executing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Initiating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#MonitoringAndControlling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#Planning"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#DailyStandUp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#IterationPlanning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#IterationRetrospective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#IterationReview"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/PM²Ontology-2#ReleasePlanning"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

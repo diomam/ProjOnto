@@ -1,0 +1,2741 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2/"
+     xml:base="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#followsWorkflow -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#followsWorkflow">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Sprint_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Improvement_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Monitoring_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Implementation_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Workflow"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Transformation_Workflow"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Development_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Research_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Development_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Lifecycle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Workflow"/>
+        <rdfs:comment>Connects a Task to a Workflow</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#hasTask -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#hasTask">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analyst"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Manager"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Officer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Customer_Analyst"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Scientist"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Engineer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Strategist"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architect"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Manager"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Manager"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Manager"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scrum_Master"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Analyst"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Developer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Designer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design"/>
+        <rdfs:comment>Connects a Role to a Task</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#partOfCareer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#partOfCareer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Generalist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Goal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Senior"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Specialist"/>
+        <rdfs:comment>Connects a Task to a Career Goal</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#partOfDiscipline -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#partOfDiscipline">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Discipline"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology"/>
+        <rdfs:comment>Connects a Task to a Discipline</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#partOfLifecycle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#partOfLifecycle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Administration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Lifecycle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Solution"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Support"/>
+        <rdfs:comment>Connects a Task to a Lifecycle</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#partOfPractice -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#partOfPractice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Architecture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Practice"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Governance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project"/>
+        <rdfs:comment>Connects a Task to a Practice</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#produces -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#produces">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Plan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Report"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Plan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics_Report"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Blueprint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Study"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Prototype"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Plan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Report"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Application"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Backlog"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Document"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Mockup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipeline_Configuration"/>
+        <rdfs:comment>Connects a Task to a Deliverable</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#requiresCapability -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#requiresCapability">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Development"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Implementation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Engineering"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategic_Planning"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design"/>
+        <rdfs:comment>Connects a Task to a Capability</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#usesGuidance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#usesGuidance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Practices"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Best_Practices"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analysis_Techniques"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Strategies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Guidelines"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Governance_Policies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Process_Roadmaps"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Frameworks"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Methodologies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Policies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Standards"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Guidelines"/>
+        <rdfs:comment>Connects a Task to Guidance</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#usesTool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#usesTool">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD)"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Management_Tools"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Analytical_Software"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling_Tools"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Platforms"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management_Tools"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Software"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Platforms"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Tools"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Software"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Tools"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Software"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Tools"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipelines"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Integrated_Development_Environments_(IDEs)"/>
+        <rdfs:comment>Connects a Task to a Tool</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#capabilityName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#capabilityName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#careerName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#careerName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#deliverableName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#deliverableName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#disciplineName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#disciplineName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#guidanceName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#guidanceName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#lifecycleName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#lifecycleName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#practiceName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#practiceName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#roleName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#roleName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#taskName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#taskName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#toolName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#toolName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#workflowName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#workflowName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#AI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#AI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Administration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Administration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Administration-2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Administration-2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Development">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Management_Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Management_Tools">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Practices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Practices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Sprint_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Sprint_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Analytical_Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Analytical_Software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Architecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Fabric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Career -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Career"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Discipline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Discipline"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Lifecycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Lifecycle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Metamodel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Metamodel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Practice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Practice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Focus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Best_Practices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Best_Practices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Discipline"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analysis_Techniques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analysis_Techniques">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analyst -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analyst">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Improvement_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Improvement_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling_Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling_Tools">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Metamodel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Platforms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Platforms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Strategies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Strategies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Manager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cloud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cloud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Complement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Complement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Fabric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Guidelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Guidelines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management_Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management_Tools">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Monitoring_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Monitoring_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Officer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Officer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Report">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Customer_Analyst -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Customer_Analyst">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Implementation_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Implementation_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Platforms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Platforms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Workflow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Workflow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics_Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics_Report">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Governance_Policies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Governance_Policies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Scientist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Scientist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Metamodel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Engineer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Engineer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Implementation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Implementation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Principles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Principles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Strategist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Strategist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Transformation_Workflow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Transformation_Workflow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Diversification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Diversification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Focus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Blueprint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Blueprint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Development_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Development_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Tools">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Entrepreneurship -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Entrepreneurship">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Fabric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Fabric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Practice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Facility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Facility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Focus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Focus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Lifecycle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Functionality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Functionality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Focus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Generalist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Generalist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Goal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Career"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Governance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Governance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Fabric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Metamodel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Innovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Innovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Integration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Integration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Intelligence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Intelligence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#IoT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#IoT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Leadership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Leadership">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Learning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Learning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Discipline"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Research_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Research_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Study -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Study">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Marketing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Marketing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Operation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Operation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Optimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Optimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Focus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Outcome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Practice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#People">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Performance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Performance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Plaatform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Plaatform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Fabric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Process_Roadmaps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Process_Roadmaps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Development_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Development_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Frameworks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Frameworks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Manager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Prototype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Prototype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Lifecycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Lifecycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Methodologies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Methodologies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Tools">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Manager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Plan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Public -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Public">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Reengineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Reengineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Focus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Resource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Manager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Report">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Metamodel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Rule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Rule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scope">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Lifecycle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scrum_Master -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scrum_Master">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Lifecycle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Fabric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Analyst -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Analyst">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Policies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Policies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Senior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Senior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Application -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Application">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Developer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Developer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Standards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Standards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Solution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Solution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Specialist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Specialist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Goal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Backlog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Backlog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategic_Planning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategic_Planning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Development_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Development_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Document">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Support">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Talent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Talent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Metamodel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Team">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Practice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Discipline"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology-2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology-2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Fabric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Metamodel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Guidelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Guidelines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Guidance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Tools">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Designer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Designer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Mockup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Mockup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Outcome"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Metamodel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipeline_Configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipeline_Configuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Deliverable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipelines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Workflow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Workflow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Workflow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Integrated_Development_Environments_(IDEs) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Integrated_Development_Environments_(IDEs)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Development -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Development"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Management_Tools -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Management_Tools"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Practices -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Practices"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Sprint_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Sprint_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Analytical_Software -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Analytical_Software"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Best_Practices -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Best_Practices"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analysis_Techniques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analysis_Techniques"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analyst -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analyst"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Improvement_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Improvement_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Model -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Model"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling_Tools -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling_Tools"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Capability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Plan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Platforms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Platforms"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Strategies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Strategies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Manager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Manager"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Guidelines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Guidelines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management_Tools -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management_Tools"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Monitoring_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Monitoring_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Officer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Officer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Report -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Report"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Customer_Analyst -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Customer_Analyst"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Implementation_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Implementation_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Plan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Software -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Software"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Platforms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Platforms"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Workflow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Workflow"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics_Report -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics_Report"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Governance_Policies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Governance_Policies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Scientist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Scientist"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Engineer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Engineer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Implementation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Implementation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Principles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Principles"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Strategist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Strategist"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Transformation_Workflow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Transformation_Workflow"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architect -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architect"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Blueprint -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Blueprint"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Development_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Development_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Tools -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Tools"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Research_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Research_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Study -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Study"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Process_Roadmaps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Process_Roadmaps"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Development_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Development_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Frameworks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Frameworks"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Software -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Software"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Manager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Manager"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Prototype -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Prototype"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Lifecycle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Lifecycle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Methodologies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Methodologies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Tools -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Tools"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Manager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Manager"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Plan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Software -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Software"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Manager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Manager"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Report -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Report"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scrum_Master -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scrum_Master"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Analyst -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Analyst"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Policies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Policies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Application -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Application"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Developer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Developer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Standards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Standards"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Engineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Engineering"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Backlog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Backlog"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategic_Planning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategic_Planning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Development_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Development_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Document -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Document"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Guidelines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Guidelines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Tools -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Tools"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Designer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Designer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Mockup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Mockup"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipeline_Configuration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipeline_Configuration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipelines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipelines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Workflow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Workflow"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Integrated_Development_Environments_(IDEs) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Integrated_Development_Environments_(IDEs)"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#AI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cloud"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#IoT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#System"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Administration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Facility"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Solution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Support"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Management_Tools"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Analytical_Software"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling_Tools"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Platforms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Management_Tools"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Software"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Platforms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Tools"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Software"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Tools"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Software"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Tools"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipelines"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Integrated_Development_Environments_(IDEs)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Practices"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Best_Practices"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analysis_Techniques"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Strategies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Guidelines"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Governance_Policies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Principles"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Process_Roadmaps"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Management_Frameworks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Methodologies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Policies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Standards"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Guidelines"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agile_Sprint_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Improvement_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Monitoring_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Implementation_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis_Workflow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Transformation_Workflow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Development_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Research_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Development_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Management_Lifecycle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Management_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Development_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Design_Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Workflow"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Agility"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Integration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#People"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Architecture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Governance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Plaatform"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Career"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Discipline"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Lifecycle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Metamodel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#BTM_Practice"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Behavior"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Diversification"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Functionality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Optimization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Reengineering"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Technology"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Analyst"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Manager"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Officer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Customer_Analyst"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Scientist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#DevOps_Engineer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Digital_Strategist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Manager"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Manager"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Manager"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scrum_Master"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Security_Analyst"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Developer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#UX_Designer"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Model"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change_Management_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analytics_Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Blueprint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Study"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Prototype"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Plan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Application"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Backlog"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Document"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Mockup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#CI/CD_Pipeline_Configuration"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Business_Process_Modeling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Compliance_Auditing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Cybersecurity_Risk_Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data_Analysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Enterprise_Architecture_Planning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Market_Analysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Organizational_Change_Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product_Innovation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Project_Planning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Risk_Assessment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Software_Development_Lifecycle_Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sprint_Planning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy_Formulation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#User_Interface_Design"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Continuous_Integration/Continuous_Deployment_(CI/CD)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Change"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Entrepreneurship"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Leadership"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Learning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Talent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Complement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Generalist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Senior"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Specialist"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Data"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Intelligence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Rule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Value"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Fabric"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Outcome"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Team"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Focus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Scope"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Sector"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Product"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Public"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Resource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Service"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Innovation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Marketing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Operation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Performance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/diom128/ontologies/2024/4/BTMOntology-2#Strategy"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
